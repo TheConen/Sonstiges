@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <GridPane gridLinesVisible="true" layoutX="0.5" layoutY="0.5" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="buttonKat1_500" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="500" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat2_300" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="300" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat2_400" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="400" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat2_500" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="500" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat1_100" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="100" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat1_200" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="200" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat1_300" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="300" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat1_400" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="400" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat5_100" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="100" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat5_200" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="200" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat5_300" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="300" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat5_400" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="400" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat5_500" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="500" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat4_100" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="100" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat4_200" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="200" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat4_300" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="300" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat4_400" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="400" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat4_500" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="500" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat3_100" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="100" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat3_200" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="200" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat3_300" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="300" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat3_400" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="400" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat3_500" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="500" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat2_100" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="100" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Button fx:id="buttonKat2_200" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00ff00;" text="200" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Button>
+            <Label fx:id="kategorie1Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="1080.0" prefWidth="1920.0" text="Kategorie 1" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="kategorie2Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="1080.0" prefWidth="1920.0" text="Kategorie 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="kategorie3Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="1080.0" prefWidth="1920.0" text="Kategorie 3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="kategorie4Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="1080.0" prefWidth="1920.0" text="Kategorie 4" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="kategorie5Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="1080.0" prefWidth="1920.0" text="Kategorie 5" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
